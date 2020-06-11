@@ -23,7 +23,7 @@ function pairOfDice() {
 
         
     //the array that holds the numbers. how to get them in the array and in the right spot
-    let totalRoles = ["1: ", "2: ", "3: ", "4: ", "5: ", "6: "];
+    let totalRolls = ["1: ", "2: ", "3: ", "4: ", "5: ", "6: "];
 
 
     
