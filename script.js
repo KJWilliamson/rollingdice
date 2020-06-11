@@ -1,5 +1,6 @@
 function pairOfDice() {
 
+    let bothDice = ["1", "2", "3", "4", "5", "6"];
     /* For each possible roll (2 through 12), count its frequency. You should use an array to keep track of these counts. */
      let count = [0,0,0,0,0,0,0,0,0,0,0,0,0];
     
@@ -8,6 +9,7 @@ function pairOfDice() {
     let die1 = Math.floor( Math.random() * 6 ) +1;
     let die2 = Math.floor( Math.random() * 6 ) +1;
     /* add dice together */
+    let sum = die1 + die2;
     
     
     /* simulate 1000 rolls of a pair of dice */
