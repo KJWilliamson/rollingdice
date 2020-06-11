@@ -18,6 +18,8 @@ function pairOfDice() {
         let rollOfDice = pairOfDice();
           count[rollOfDice] = count[rollOfDice] + 1;
           outcome.push(rollOfDice);
-        }
+
+      }
       
         pairOfDice()
+        document.write(count);
