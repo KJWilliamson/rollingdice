@@ -2,10 +2,6 @@
 
 
 function pairOfDice() {
-    //not sure this is even needed. don't need them separate. I need them together and totaled.
-    //can I do let bothDice = document.getElementById("bothDice")
-    //let dice1 = document.getElementById("dice1");
-    //let dice2 = document.getElementById("dice2");
     
     
     /* for each die */
@@ -13,9 +9,9 @@ function pairOfDice() {
     let dice1 = Math.floor( Math.random() * 6 ) +1;
     let dice2 = Math.floor( Math.random() * 6 ) +1;
     /* add dice together */
-    let sum = dice1 + dice2;
+    let bothDice = dice1 + dice2;
     
-    let bothDice = document.getElementById("bothDice");
+    bothDice.innerHTML = bothDice;
 
     //where do these need to be placed. Trace code!!
     /* simulate 1000 rolls of a pair of dice */
