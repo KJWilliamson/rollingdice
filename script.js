@@ -11,7 +11,7 @@ function pairOfDice() {
     let count = [0,0,0,0,0,0,0,0,0,0,0,0,0];
   
   
-    var outcome = [];
+    let outcome = [];
   
       //simulate 1000 rolls of a pair of dice 
       for(let i = 0; i <= 999; i++) {
