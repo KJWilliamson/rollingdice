@@ -1,6 +1,9 @@
+//Need to get this in order and working. 
+
+
 function pairOfDice() {
 
-    let bothDice = ["1", "2", "3", "4", "5", "6"];
+    let bothDice = ["1: ", "2: ", "3: ", "4: ", "5: ", "6: "];
     /* For each possible roll (2 through 12), count its frequency. You should use an array to keep track of these counts. */
      let count = [0,0,0,0,0,0,0,0,0,0,0,0,0];
     
