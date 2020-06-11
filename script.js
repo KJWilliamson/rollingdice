@@ -1,13 +1,11 @@
-//Need to get this in order and working. 
-
-
 function pairOfDice() {
-  
+    //produces two random numbers and then adds them together
     let dice1 = Math.floor( Math.random() * 6 ) +1;
     let dice2 = Math.floor( Math.random() * 6 ) +1;
     let bothDice = dice1 + dice2;
     return bothDice;
   }
+    //array to store times each number is rolled 
     let count = [0,0,0,0,0,0,0,0,0,0,0,0,0];
   
   
