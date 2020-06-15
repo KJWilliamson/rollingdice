@@ -1,5 +1,7 @@
 function pairOfDice() {
     //produces two random numbers and then adds them together
+    //needed two dice so posted it twice and assigned dice1 and dice2
+    //added both together
     let dice1 = Math.floor( Math.random() * 6 ) +1;
     let dice2 = Math.floor( Math.random() * 6 ) +1;
     let bothDice = dice1 + dice2;
@@ -19,6 +21,8 @@ function pairOfDice() {
 
       }
       
+      //also would like to get the code working for the graph example
+      //from mini lesson provided
       function createBarGraph(graph) {
         
           const barGraph = document.createElement("div");
